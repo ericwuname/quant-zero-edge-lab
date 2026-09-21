@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+
+# 数据（体量大 / 私有 / 可重新生成）
+*.pkl
+*.npz
+*.npy
+*.parquet
+*.feather
+data/
+datasets/
+cache/
+*.csv.gz
+
+# 日志与运行产物
+*.log
+*.pid
+.DS_Store
+outputs/
+tmp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# 环境
+.env
+*.key
+config_local.py
